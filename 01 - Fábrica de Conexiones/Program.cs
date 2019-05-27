@@ -10,7 +10,13 @@ namespace _01___Fábrica_de_Conexiones
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("***** Una sencilla fábrica de conexiones *****");
 
+            // Crear, establecer utilizar y luego cerrar la conexíón
+
+
+            // Realizar una pausa
+            Console.Read();
         }
     }
 }
