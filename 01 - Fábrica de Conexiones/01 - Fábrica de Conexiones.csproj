@@ -44,6 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MyConnection.cs" />
+    <Compile Include="MyConnectionOleDb.cs" />
+    <Compile Include="MyConnectionSql.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
