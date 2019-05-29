@@ -13,7 +13,9 @@ namespace _01___Fábrica_de_Conexiones
             Console.WriteLine("***** Una sencilla fábrica de conexiones *****");
 
             // Crear, establecer utilizar y luego cerrar la conexíón
-
+            MyConnection miConexion = new MyConnection(DataProvider.SQLServer);
+            miConexion.Conectar();
+            miConexion.TipoDeConexion();
 
             // Realizar una pausa
             Console.Read();
