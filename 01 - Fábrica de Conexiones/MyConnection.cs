@@ -48,14 +48,14 @@ namespace _01___Fábrica_de_Conexiones
                 default:
                     break;
             }
+        }
 
-            /*
-             * Muestra el tipo de conexión hacia la base de datos.
-             */
-            public void TipoDeConexion()
-            {
-                Console.WriteLine("Tu conexión es una {0}", dataProvider);
-            }
+        /*
+        * Muestra el tipo de conexión hacia la base de datos.
+        */
+        public void TipoDeConexion()
+        {
+            Console.WriteLine("Tu conexión es una {0}", dataProvider);
         }
     }
 }
